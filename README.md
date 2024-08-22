@@ -17,6 +17,10 @@ Comparación de Modelos de Machine Learning: ¿Cuál de los modelos probados (SV
 
 Aplicabilidad en Sistemas de Recomendación Musical: ¿Cómo pueden estos modelos mejorados beneficiar la precisión y la personalización de los sistemas de recomendación musical en plataformas de streaming?
 
+
+Conclusión: En este proyecto, se buscó mejorar el desempeño de los modelos de Machine Learning para la clasificación de géneros musicales mediante la creación de variables sintéticas y la aplicación de técnicas de reducción de dimensionalidad como el Análisis de Componentes Principales (PCA). A través del análisis, se identificaron interacciones significativas entre características de audio, como la combinación de `acousticness` con `liveness` y `energy` con `loudness`, que se incorporaron en los modelos. Tras reentrenar los modelos de **Support Vector Machine (SVM)**, **Random Forest**, y **Gradient Boosting**, se observó que el rendimiento en el conjunto de entrenamiento mejoró, aunque se mantuvo constante en el conjunto de prueba, lo que sugiere que las nuevas variables sintéticas proporcionaron una representación más rica de los datos sin introducir overfitting significativo. La aplicación de PCA reveló que los primeros dos componentes principales explicaban una parte considerable de la varianza en los datos, destacando las variables más relevantes. En resumen, el proyecto demostró que la ingeniería de características puede mejorar el desempeño de los modelos y proporcionar una comprensión más profunda de la estructura de los datos, lo cual es crucial para la clasificación precisa de géneros musicales.
+
+
 Generalización y Escalabilidad: ¿Qué tan bien generalizan estos modelos a nuevos conjuntos de datos y qué consideraciones deben tenerse en cuenta para escalar el modelo a un conjunto de datos más grande?
 
 Interpretación de los Modelos: ¿Qué insights pueden obtenerse sobre las preferencias musicales y la estructura de los géneros a través del análisis de los modelos entrenados?
